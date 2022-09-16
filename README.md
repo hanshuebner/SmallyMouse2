@@ -1,6 +1,15 @@
+This is a fork of the SmallyMouse2 project changed so that a USB mouse
+can be used with a Symbolics Lisp Machine.  The cable needs to be
+connected like shown in this sketch:
+
+![Cabling sketch](connect-symbolics-mouse.jpg)
+
+Original README:
+
 ## Synopsis
 
-SmallyMouse2 is the AT90USB1287 firmware source code and KiCAD schematic/PCB design for the SmallyMouse2 project.
+SmallyMouse2 is the AT90USB1287 firmware source code and KiCAD
+schematic/PCB design for the SmallyMouse2 project.
 
 ## Motivation
 
