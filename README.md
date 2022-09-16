@@ -4,6 +4,12 @@ connected like shown in this sketch:
 
 ![Cabling sketch](connect-symbolics-mouse.jpg)
 
+If you repurpose half of a standard Ethernet cable to connect the
+SmallyMouse2 board to the Symbolics or the ADB adapter box, here's the
+standard color scheme:
+
+![RJ45 Color Coding](rj45-color-coding.jpg)
+
 Original README:
 
 ## Synopsis
