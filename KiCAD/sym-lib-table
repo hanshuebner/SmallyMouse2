@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "SmallyMouse2-rescue")(type "Legacy")(uri "${KIPRJMOD}/SmallyMouse2-rescue.lib")(options "")(descr ""))
+)
