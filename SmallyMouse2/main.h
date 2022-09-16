@@ -30,6 +30,23 @@
 // Hardware map
 
 // Quadrature mouse output port
+
+#if defined(SYMBOLICS)
+
+// Right mouse button
+#define MOUSE0_PORT	PORTC
+#define MOUSE0_PIN	PINC
+#define MOUSE0_DDR	DDRC
+#define MOUSE0		(1 << 6)
+
+// Middle mouse button
+#define MOUSE1_PORT	PORTC
+#define MOUSE1_PIN	PINC
+#define MOUSE1_DDR	DDRC
+#define MOUSE1		(1 << 5)
+
+#else
+
 // Right mouse button
 #define RB_PORT	PORTC
 #define RB_PIN	PINC
@@ -47,6 +64,8 @@
 #define LB_PIN	PINC
 #define LB_DDR	DDRC
 #define LB		(1 << 4)
+
+#endif
 
 // Y axis output
 #define Y2_PORT	PORTC
