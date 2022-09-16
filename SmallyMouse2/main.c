@@ -409,13 +409,13 @@ void processMouse(void)
     // Process mouse buttons ----------------------------------------------
 
 #if defined(SYMBOLICS)
-    if ((MouseReport.Button & 0x01) == 0) {
+    if (MouseReport.Button & 0x01) {
       MOUSE0_PORT &= ~MOUSE0;
       MOUSE1_PORT &= ~MOUSE1;
-    } else if ((MouseReport.Button & 0x04) == 0) {
+    } else if (MouseReport.Button & 0x04) {
       MOUSE0_PORT |= MOUSE0;
       MOUSE1_PORT &= ~MOUSE1;
-    } else if ((MouseReport.Button & 0x02) == 0) {
+    } else if (MouseReport.Button & 0x02) {
       MOUSE0_PORT &= ~MOUSE0;
       MOUSE1_PORT |= MOUSE1;
     } else {

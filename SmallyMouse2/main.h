@@ -45,6 +45,28 @@
 #define MOUSE1_DDR	DDRC
 #define MOUSE1		(1 << 5)
 
+// Y axis output
+#define Y2_PORT	PORTC
+#define Y2_PIN	PINC
+#define Y2_DDR	DDRC
+#define Y2		(1 << 1)
+
+#define Y1_PORT	PORTC
+#define Y1_PIN	PINC
+#define Y1_DDR	DDRC
+#define Y1		(1 << 3)
+
+// X axis output
+#define X2_PORT	PORTC
+#define X2_PIN	PINC
+#define X2_DDR	DDRC
+#define X2		(1 << 0)
+
+#define X1_PORT	PORTC
+#define X1_PIN	PINC
+#define X1_DDR	DDRC
+#define X1		(1 << 2)
+
 #else
 
 // Right mouse button
@@ -64,8 +86,6 @@
 #define LB_PIN	PINC
 #define LB_DDR	DDRC
 #define LB		(1 << 4)
-
-#endif
 
 // Y axis output
 #define Y2_PORT	PORTC
@@ -88,6 +108,8 @@
 #define X1_PIN	PINC
 #define X1_DDR	DDRC
 #define X1		(1 << 0)
+
+#endif
 
 // Rate limit on/off switch (marked 'slow')
 #define RATESW_PORT	PORTA
